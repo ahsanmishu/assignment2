@@ -1,0 +1,521 @@
+/* Google font  */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/*--------------------
+     common style 
+----------------------*/
+header{
+    background: #ff900e1a;
+}
+
+/*-------------------
+      nav style  
+---------------------*/
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 240px;
+    
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin: 0;
+}
+.nav-link span a{
+    text-decoration: none;
+    margin-left: 50px;
+    color: #424242;
+}
+
+/*---------------------- 
+     Banner style 
+-----------------------*/
+.banner{
+    margin-bottom: 40px;
+}
+.banner{
+    padding: 20px 400px;
+    text-align: center;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 64px;
+}
+.description-common{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 33px;
+}
+.btn-primary{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+}
+.banner-img{
+    margin: 0 240px;
+    padding-bottom: 45px;
+   
+}
+.banner-img img{
+    width: 100%;
+}
+
+/* ---------------------
+       about styles
+------------------------ */
+.sections{
+    margin: 85px 200px 130px 200px;
+} 
+.section{
+    display: flex;
+    align-items: center;
+
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    /* padding: 20px; */
+
+} */
+.about-img{
+    width: 342px;
+    height: 342px;
+}
+.about-description{
+    margin-left: 50px;
+    align-items: center;
+}
+.description-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin:24px 0;
+}
+.text-gray{
+    color: #727272;
+    font-weight: 500;
+}
+.text-org{
+    color: #FF900E;
+}
+
+/* ----------------------------
+        features style 
+-------------------------------*/
+.features-section{
+    display: flex;
+    gap: 100px;
+}
+.containers{
+    margin-left: 150px;
+} 
+.container{
+    border-left: 4px solid #FF900E;
+}
+.container-title{
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 14px;
+    margin-bottom: 25px;
+}
+.feature-container{
+    width: 100%;
+}
+.feature{
+    padding: 20px 30px;
+    box-shadow: 0px 0px 40px #00000026;
+    margin-top: 25px;
+    border-radius: 5px;
+    
+}
+.feature-title{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.description{
+    font-weight: 400;
+    font-size: 12px;
+    color: #727272;
+}
+
+.container-img{
+    margin-right: 150px;
+} 
+.container-img img{
+    width: 100%;
+}
+.btn{
+    background-color: #FF900E;
+    color: #ffffff;
+    padding: 46px;
+    border: 0;
+    font-weight: 500;
+    font-size: 25px;
+    transform: translate(-80px, -100px);
+    border-radius: 5px;
+    
+}
+#btn-large{
+    font-weight: 700;
+    font-size: 65px;
+}
+
+/* --------------------------
+  work and achievement style 
+-----------------------------*/
+.work{
+    margin-left: 180px;
+    margin-top: 50px;
+}
+.work .description-title{
+    margin-bottom: 10px;
+}
+.work-space{
+    margin: 100px 200px 150px 200px;
+}
+.achieve{
+    display: flex;
+    gap: 100px;
+}
+.achievement{
+    border: 1px solid #FF900E;
+    width: 240px;
+    height: 120px;
+    padding: 45px 36px;
+    text-align: center;
+    border-radius: 7px;
+    transition: width 1s, height 1s, transform 1s;
+}
+.achievement:hover {
+    background: #ff900e1a;
+    transform: rotate(90deg);
+}
+.achievement img{
+    margin-bottom: 5px;
+}
+.achievement h2{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0px;
+}
+.achievement p{
+   font-size: 14px;
+   margin-top: 5px;
+   color: #727272;
+}
+
+/*-------------------------
+     Sponspors styles 
+---------------------------*/
+.Sponspor{
+    text-align: center;
+}
+.Sponspor .description-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+.logos{
+    margin: 10px 250px 50px 250px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.logo img{
+    width: 100%;
+    filter: grayscale(1);
+}
+
+/* ------------------------------
+        contacts us style
+---------------------------------*/
+.hire-me{
+    text-align: center;
+}
+.section-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 130px;
+}
+.section-description textarea{
+    border: 3px solid #424242;
+    padding: 20px;
+    border-radius: 7px;
+    width: 100%;
+    max-width: 530px;
+}
+.input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.section-description .email{
+    width: 420px;
+    height: 20px;
+    padding: 10px;
+    border: 2px solid #424242;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.input-box .btn-submit{
+    background-color: #FF900E;
+    color: #ffffff;
+    font-size: 16px;
+    border: 0;
+    padding: 12px 30px;
+    border-radius: 5px;
+    margin-left:;
+}
+
+/* ------------------------------
+         footer style 
+---------------------------------*/
+.footer{
+    background: #ff900e1a;
+    padding: 20px 280px;
+    text-align: center;
+    margin: 100px 220px 120px 220px;
+    border-radius: 7px;
+}
+.footer p{
+    color: #424242;
+}
+
+
+/* ------------------------------------
+     Responsive For small devices
+--------------------------------------- */
+@media only screen and (max-width:576px) {
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        
+    }
+    .nav-title{
+        font-size: 34;
+    }
+    .nav-link span a{
+        display: flex;
+        flex-direction: column;
+        margin-right: 60px;
+        margin-top: 20px;
+
+    }
+    /* ------------------------
+    
+    --------------------------*/
+    .banner{
+        padding: 0px;
+        text-align: center;
+        padding: 10px;
+    }
+    .banner-title{
+        font-weight: 700;
+        font-size: 34px;
+        
+    }
+    .description-common{
+        font-weight: 400;
+        font-size: 13px;
+        color: #727272;
+        margin-bottom: 33px;
+    }
+    .banner-img{
+        margin: 0px;
+        padding-bottom: 0px;       
+    }
+    .sections{
+        margin-top: 50px;
+        margin-bottom: 10px;
+    } 
+    .section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about{
+        grid-template-columns: repeat(1,1fr);
+    } 
+    .about-img{
+        width: 342px;
+        height: 342px;
+    }
+    .about-description{
+        text-align: center;
+        margin: 10px;
+        width: 340px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .description-title{
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .about-description .description-common{
+        text-align: justify;
+    }
+
+    .features-section{
+        flex-direction: column;
+        margin: 15px;
+        gap: 45px;
+    }
+
+    .features-section .container-img button.btn{
+        position: relative;
+        left: 48%;
+        right: auto;
+        margin-top: 31%;
+    }
+    .containers{
+        margin:0;
+    } 
+    .container{
+        border-left: 4px solid #FF900E;
+    }
+    .container-title{
+        font-weight: 700;
+        font-size: 45px;
+        padding-left: 14px;
+        margin-bottom: 25px;
+    }
+    .feature-container{
+        width: 100%;
+    }
+    .feature{
+        padding: 20px 30px;
+        box-shadow: 0px 0px 40px #00000026;
+        margin-top: 25px;
+        border-radius: 5px;
+        
+    }
+
+    .container-img{
+        margin:0;
+    } 
+    .container-img img{
+        width: 100%;
+    }
+    .btn{
+        background-color: #FF900E;
+        color: #ffffff;
+        padding: 16px;
+        border: 0;
+        font-weight: 500;
+        font-size: 15px;
+        border-radius: 5px;
+        
+    }
+    #btn-large{
+        font-weight: 700;
+        font-size: 35px;
+    }
+
+    .work{
+        margin-left: 18px;
+    }
+    .work .description-title{
+        margin-bottom: 10px;
+    }
+    .work-space{
+        margin: 10px;
+    }
+    .achieve{
+        flex-direction: column;
+        gap: 45px;
+    }
+    .achieve .achievement{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .achieve .achievement:hover{
+        transform: rotate(90deg);
+    }
+    .Sponsor{
+        text-align: center;
+    }
+    .Sponsor .description-title{
+        font-weight: 700;
+        font-size: 35px;
+        margin-top: 60px;
+    }
+    .logos{
+        margin: 10px;
+    }
+    .logo{
+        flex-direction: column;
+        gap:50px;
+    }
+
+    .section-title{
+        margin-top: 75px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+
+    .hire-me .section-description{
+        width: 100% !important;
+        margin: 10px;
+        overflow: hidden;
+        display: block;
+    }
+
+    .hire-me .section-description textarea{
+        width: 90% !important;
+        padding: 10px;
+        margin: 0;
+        min-width: 100px !important;
+        min-height: 150px;
+        max-width: 367px;
+        display: block;
+    }
+
+    .hire-me .section-description .input-box{
+        margin: 0;
+        padding: 0;
+        margin-top: 15px;
+        margin-right: 0px;
+        max-width: 100%;
+        display: block;
+    }
+    .section-description .email{
+        width: 100%;
+    }
+    .hire-me .section-description .input-box input.email{
+        max-width: 60%;
+        float: left;
+    }
+    .hire-me .section-description .input-box button.btn-submit{
+        float: left;
+        width: 100%;
+        max-width: 27%;
+        padding: 12px 15px;
+    }
+
+    .footer{
+        margin: 0;
+        margin-top: 45px;
+        padding: 10px;
+    }
+
+}
