@@ -1,9 +1,9 @@
 /* Google font  */
-  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     margin: 0;
 }
 
@@ -220,12 +220,12 @@ header{
 }
 
 /*-------------------------
-     Sponspors styles 
+     Sponsors styles 
 ---------------------------*/
-.Sponspor{
+.Sponsor{
     text-align: center;
 }
-.Sponspor .description-title{
+.Sponsor .description-title{
     font-weight: 700;
     font-size: 45px;
 }
